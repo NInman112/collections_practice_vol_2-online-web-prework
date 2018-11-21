@@ -31,7 +31,7 @@ def count_elements(names)
 end
 
 def merge_data(name, data)
-
+  data[0].values.map.with_index {|y, x| name[x].merge(y)}
 end
 
 def find_cool(temp)
