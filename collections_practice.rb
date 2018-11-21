@@ -44,7 +44,7 @@ def organize_schools(school)
   if organizedschool[x[:location]] == nil
     organizedschool[x[:location]] = [s]
 else
-  organizedschool[x[:location]] << school
+  organizedschool[x[:location]] << s
 end
 end
 organizedschool
