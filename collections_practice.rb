@@ -1,1 +1,43 @@
 # your code goes here
+require 'pry'
+
+def begins_with_r(tools)
+  if tools.all? {|x| x.start_with?("r") }
+    TRUE
+  else
+    FALSE
+  end
+end
+
+def contain_a(element)
+  element.select {|x| x.include?("a")}
+end
+
+def first_wa(word)
+  word.find {|x| x.to_s.include?("wa")}
+end
+
+def remove_non_strings(names)
+  names.delete_if {|x| !(x.is_a? String) }
+end
+
+def count_elements(names)
+  count = Hash.new(0)
+  names.each {|x| count[x] += 1 }
+  count.collect do |hash,number|
+    hash[:count] = number
+  end
+  count.keys
+end
+
+def merge_data(name, data)
+  
+end
+
+def find_cool(temp)
+  
+end
+
+def organize_schools(school)
+
+end
