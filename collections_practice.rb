@@ -35,7 +35,7 @@ def merge_data(name, data)
 end
 
 def find_cool(temp)
-  temp.select{|key, hash| hash["temperature"] == "cool"}
+  temp.find{|key, hash| hash["temperature"] == "cool"}
 end
 
 def organize_schools(school)
