@@ -35,7 +35,7 @@ def merge_data(name, data)
 end
 
 def find_cool(temp)
-  temp.select{|key, hash| binding.pry hash[:temperature] == "cool"}
+  temp.select{|x| x[:temperature] == "cool"}
 end
 
 def organize_schools(school)
