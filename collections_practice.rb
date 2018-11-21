@@ -39,5 +39,8 @@ def find_cool(temp)
 end
 
 def organize_schools(school)
-
+  organizedschool = {}
+  school.each {|s, x| 
+  if organizedschool[x[:location]] == [s]
+else
 end
