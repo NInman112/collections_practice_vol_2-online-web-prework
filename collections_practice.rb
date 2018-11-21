@@ -31,7 +31,7 @@ def count_elements(names)
 end
 
 def merge_data(name, data)
-  name.merge(data)
+
 end
 
 def find_cool(temp)
