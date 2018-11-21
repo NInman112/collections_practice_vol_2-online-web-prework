@@ -35,7 +35,6 @@ def merge_data(name, data)
 end
 
 def find_cool(temp)
-  binding.pry
   temp.select{|key, hash| hash[:temperature] == "cool"}
 end
 
