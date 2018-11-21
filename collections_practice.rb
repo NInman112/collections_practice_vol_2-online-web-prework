@@ -36,7 +36,7 @@ end
 
 def find_cool(temp)
   binding.pry
-  temp.select{|key, hash| hash["temperature"] == "cool"}
+  temp.select{|key, hash| hash[:temperature] == "cool"}
 end
 
 def organize_schools(school)
