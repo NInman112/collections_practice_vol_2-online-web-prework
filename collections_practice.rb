@@ -40,11 +40,12 @@ end
 
 def organize_schools(school)
   organizedschool = {}
-  school.each {|s, x| 
+  school.each do |s, x| 
   if organizedschool[x[:location]] == nil
     organizedschool[x[:location]] == [s]
 else
   organizedschool[x[:location]] << school
-end }
+end
+end
 organizedschool
 end
