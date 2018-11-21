@@ -84,7 +84,7 @@ describe 'collections practice vol 2.' do
   }
   let(:organized_schools) {
     {"NYC"=>["flatiron school bk", "flatiron school", "general assembly"],
-     "SF"=>["dev boot camp", "Hack Reactor"],
+     "SF"=>["dev boot camp", "hack Reactor"],
      "Chicago"=>["dev boot camp chicago"]}
   }
 
